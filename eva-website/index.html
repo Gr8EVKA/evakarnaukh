@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- PRIMARY SEO & LLM ENRICHMENT -->
+    <title>Eva Karnaukh | Leading Humans in an AI World | AI Innovation & Human Dynamics</title>
+    <meta name="description" content="Eva Karnaukh is a CEO, keynote speaker, and author bridging AI innovation with human dynamics. Master the invisible patterns of leadership and neural regulation.">
+    <meta name="keywords" content="Eva Karnaukh, Human Dynamics, AI Leadership, APEK.ai, Nervous System Regulation, Identity Shifts, Pattern Recognition, Human-First AI, Executive Presence, Strategic Clarity">
+    <link rel="canonical" href="https://evakarnaukh.com">
+    <meta name="author" content="Eva Karnaukh">
+
+    <!-- SOCIAL / OPEN GRAPH -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://evakarnaukh.com">
+    <meta property="og:title" content="Eva Karnaukh | Leading Humans in an AI World">
+    <meta property="og:description" content="Technical advantage is temporary. Human dynamics determine whether AI accelerates growth or amplifies dysfunction.">
+    <meta property="og:image" content="https://evakarnaukh.com/eva-main.png">
+
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Eva Karnaukh | Leading Humans in an AI World">
+    <meta name="twitter:description" content="Technical advantage is temporary. Human dynamics determine whether AI accelerates growth or amplifies dysfunction.">
+    <meta name="twitter:image" content="https://evakarnaukh.com/eva-main.png">
+
+    <!-- SEO -->
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0A0A0A">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- JSON-LD STRUCTURED DATA -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Eva Karnaukh",
+      "jobTitle": "Entrepreneur, Keynote Speaker, and Author",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "APEK.ai",
+        "description": "Leading human-first AI innovation and disruption."
+      },
+      "description": "Expert in the intersection of AI innovation, human dynamics, and executive leadership. Known for identifying invisible patterns that shape organizational culture.",
+      "url": "https://evakarnaukh.com",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Leadership Mastery",
+        "itemListElement": [
+          {
+            "@type": "Product",
+            "name": "7-Day Executive AI and Humans Mastery Accelerator",
+            "description": "A masterclass designed to shape leaders who understand how to lead humans in an AI world."
+          }
+        ]
+      }
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Homemade+Apple&display=swap" rel="stylesheet">
+    
+    <script>
+        // Tailwind configuration with error handling
+        if (typeof tailwind !== 'undefined') {
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            obsidian: '#0A0A0A',
+                            charcoal: '#121212',
+                            champagne: '#D4AF37',
+                            gold_dark: '#997B20',
+                            bone: '#F5F5F4',
+                            muted: '#A1A1AA',
+                        },
+                        fontFamily: {
+                            serif: ['Playfair Display', 'serif'],
+                            sans: ['Inter', 'sans-serif'],
+                            hand: ['Homemade Apple', 'cursive'],
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #0A0A0A; color: #F5F5F4; overflow-x: hidden; }
+        .fade-in { opacity: 0; transform: translateY(20px); transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1); }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        .gold-border { border: 1px solid rgba(212, 175, 55, 0.15); }
+        .glass { backdrop-filter: blur(12px); background-color: rgba(10, 10, 10, 0.7); }
+        .signature-accent { color: #D4AF37; font-family: 'Homemade Apple', cursive; font-size: 0.85rem; transform: rotate(-3deg); display: inline-block; }
+        .hero-gradient { background: radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.05) 0%, rgba(10, 10, 10, 1) 100%); }
+        .text-glow-gold { text-shadow: 0 0 20px rgba(212, 175, 55, 0.3); }
+        
+        img { transition: opacity 0.5s ease-in, transform 0.5s ease-in-out; }
+        
+        @keyframes marquee {
+            0% { transform: translate3d(0, 0, 0); }
+            100% { transform: translate3d(-50%, 0, 0); }
+        }
+        .marquee-container {
+            overflow: hidden;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+            mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+        }
+        .marquee-content {
+            display: flex;
+            animation: marquee 35s linear infinite;
+            gap: 6rem;
+            align-items: center;
+        }
+        .marquee-content:hover { animation-play-state: paused; }
+        .mobile-link { color: #F5F5F4; transition: color 0.3s ease; }
+        .mobile-link:hover { color: #D4AF37; }
+        
+        /* Airy newsletter effects */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(1deg); }
+        }
+        @keyframes sparkle {
+            0%, 100% { opacity: 0.3; transform: scale(0.8); }
+            50% { opacity: 0.8; transform: scale(1.2); }
+        }
+        @keyframes glow-pulse {
+            0%, 100% { opacity: 0.4; }
+            50% { opacity: 0.7; }
+        }
+        .airy-section {
+            position: relative;
+            animation: float 8s ease-in-out infinite;
+        }
+        .airy-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
+            animation: glow-pulse 4s ease-in-out infinite;
+            pointer-events: none;
+        }
+        .airy-section::after {
+            content: '';
+            position: absolute;
+            top: 20%;
+            right: 10%;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.2) 0%, transparent 70%);
+            border-radius: 50%;
+            animation: sparkle 3s ease-in-out infinite;
+            pointer-events: none;
+        }
+        .glass-airy {
+            backdrop-filter: blur(20px) saturate(180%);
+            background: rgba(10, 10, 10, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-bone">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" style="position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden;" class="focus:left-4 focus:top-4 focus:z-50 focus:w-auto focus:h-auto focus:px-4 focus:py-2 focus:bg-champagne focus:text-obsidian focus:rounded focus:overflow-visible">
+        Skip to main content
+    </a>
+
+    <!-- TOP UPSELL -->
+    <div class="bg-bone text-obsidian py-2.5 px-4 text-center text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase sticky top-0 z-[60] shadow-xl">
+        <a href="https://buy.stripe.com/4gM4gA3Ct33NbN24vU9fW02" target="_blank" rel="noopener noreferrer" class="hover:text-gold_dark transition-colors">Spot the hidden patterns shaping your leadership, decisions, and relationships. The Rapid-Response Kit ($27). Start here &rarr;</a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-10 w-full z-50 glass border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex flex-col">
+                <a href="#" class="text-sm md:text-lg font-serif font-bold tracking-[0.3em] uppercase">Eva Karnaukh</a>
+                <span class="text-[8px] uppercase tracking-[0.2em] text-champagne/60 -mt-1">Human Dynamics • AI Leadership</span>
+            </div>
+            
+            <div class="hidden lg:flex space-x-10 text-[10px] uppercase tracking-[0.25em] font-bold text-muted/80">
+                <a href="#about" class="hover:text-champagne transition-colors">The Narrative</a>
+                <a href="#speaking" class="hover:text-champagne transition-colors">Speaking</a>
+                <a href="#accelerator" class="hover:text-champagne transition-colors">Cohort</a>
+                <a href="#podcast" class="hover:text-champagne transition-colors">Podcast</a>
+                <a href="#book" class="hover:text-champagne transition-colors">The Book</a>
+                <a href="#playbook" class="hover:text-champagne transition-colors">Store</a>
+            </div>
+
+            <a href="https://cal.com/evakarnaukh/30min" target="_blank" rel="noopener noreferrer" class="hidden sm:block px-6 py-2.5 bg-champagne text-obsidian text-[10px] font-bold uppercase tracking-widest hover:bg-white transition-all" aria-label="Start a private conversation with Eva Karnaukh">
+                Start a Conversation
+            </a>
+            
+            <button id="menu-toggle" class="lg:hidden text-bone p-2">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 z-[45] bg-obsidian flex-col items-center justify-center space-y-8 text-xl font-serif hidden lg:hidden">
+        <a href="#about" class="mobile-link">The Narrative</a>
+        <a href="#speaking" class="mobile-link">Speaking</a>
+        <a href="#accelerator" class="mobile-link">Cohort</a>
+        <a href="#podcast" class="mobile-link">Podcast</a>
+        <a href="#book" class="mobile-link">The Book</a>
+        <a href="https://cal.com/evakarnaukh/30min" target="_blank" rel="noopener noreferrer" class="mobile-link text-champagne" aria-label="Start a private conversation with Eva Karnaukh">Start a Private Conversation</a>
+    </div>
+
+    <!-- Hero Section -->
+    <main id="main-content">
+    <header class="relative min-h-screen flex items-center pt-24 overflow-hidden hero-gradient" role="banner">
+        <div class="max-w-7xl mx-auto px-6 w-full grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 fade-in z-20">
+                <div class="signature-accent mb-4">Hello, human.</div>
+                <h1 class="text-5xl md:text-8xl font-serif mb-8 leading-[1.05] tracking-tight text-glow-gold">
+                    Technical advantage is <span class="italic text-champagne">temporary.</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-muted/90 mb-10 max-w-xl leading-relaxed font-light">
+                    I help people lead through change by understanding human dynamics—the invisible patterns that shape what we do under pressure, at work and in life.
+                </p>
+                <p class="text-lg text-muted/80 mb-10 max-w-xl leading-relaxed font-light">
+                    Because when the nervous system feels unsafe, people do not collaborate, they protect. And when protection runs the room, strategy falls apart. <span class="text-bone font-medium">AI will scale your systems, but it also scales your blind spots.</span>
+                </p>
+                
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 items-center">
+                    <a href="https://cal.com/evakarnaukh/30min" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-bone text-obsidian px-10 py-5 text-center font-bold uppercase tracking-widest text-[11px] hover:bg-champagne transition-all shadow-xl" aria-label="Start a private conversation with Eva Karnaukh">
+                        Start a Private Conversation
+                    </a>
+                    <a href="#speaking" class="w-full sm:w-auto text-muted border-b border-muted/30 pb-1 uppercase text-[10px] font-bold tracking-widest hover:text-champagne hover:border-champagne transition-all" aria-label="Learn about keynote speaking opportunities">
+                        Keynote Inquiries
+                    </a>
+                </div>
+            </div>
+            
+            <div class="lg:col-span-5 relative fade-in">
+                <div class="relative group">
+                    <div class="absolute -inset-4 bg-champagne/10 rounded-full blur-3xl opacity-50"></div>
+                    <img src="eva-main.png" 
+                         alt="Eva Karnaukh AI Innovation Leadership" 
+                         class="relative z-10 w-full rounded-2xl grayscale hover:grayscale-0 transition-all duration-1000 shadow-2xl border border-white/5">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- AS FEATURED IN -->
+    <section class="py-12 bg-obsidian border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6 mb-8 text-center">
+            <p class="text-[9px] uppercase tracking-[0.4em] text-muted">As Featured In</p>
+        </div>
+        <div class="marquee-container">
+            <div class="marquee-content opacity-40 grayscale contrast-125">
+                <span class="text-lg md:text-xl font-serif font-bold italic tracking-tighter">Associated Press</span>
+                <span class="text-lg md:text-xl font-serif font-black tracking-tight">YAHOO! <span class="font-light">FINANCE</span></span>
+                <span class="text-lg md:text-xl font-serif font-bold tracking-widest uppercase">MarketWatch</span>
+                <span class="text-lg md:text-xl font-serif font-bold italic">Bloomberg</span>
+                <span class="text-lg md:text-xl font-sans font-bold tracking-tighter uppercase">GlobeNewswire</span>
+                <span class="text-lg md:text-xl font-serif font-bold">FOX</span>
+                <span class="text-lg md:text-xl font-sans font-black tracking-tighter">NBC</span>
+                <span class="text-lg md:text-xl font-serif font-bold italic text-glow-gold">Benzinga</span>
+                
+                <span class="text-lg md:text-xl font-serif font-bold italic tracking-tighter">Associated Press</span>
+                <span class="text-lg md:text-xl font-serif font-black tracking-tight">YAHOO! <span class="font-light">FINANCE</span></span>
+                <span class="text-lg md:text-xl font-serif font-bold tracking-widest uppercase">MarketWatch</span>
+                <span class="text-lg md:text-xl font-serif font-bold italic text-glow-gold">Bloomberg</span>
+                <span class="text-lg md:text-xl font-sans font-bold tracking-tighter uppercase">GlobeNewswire</span>
+                <span class="text-lg md:text-xl font-serif font-bold">FOX</span>
+                <span class="text-lg md:text-xl font-sans font-black tracking-tighter">NBC</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEYNOTE SPEAKING -->
+    <section id="speaking" class="py-24 bg-charcoal/30 border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div class="fade-in space-y-6">
+                    <div class="relative group overflow-hidden rounded-xl gold-border shadow-2xl">
+                        <img src="eva-speak.png"
+                             alt="Eva Karnaukh Keynote Speaker Stage Presence" 
+                             class="w-full grayscale group-hover:grayscale-0 transition-all duration-700">
+                    </div>
+                </div>
+                <div class="fade-in">
+                    <div class="signature-accent mb-4 text-gold_dark">From the stage</div>
+                    <h2 class="text-4xl md:text-6xl font-serif mb-8 leading-tight">Human Dynamics <br><span class="italic text-champagne">for high-stakes rooms.</span></h2>
+                    <p class="text-muted text-lg mb-8 leading-relaxed font-light">
+                        Eva speaks about what shapes real decisions, not just the ones we explain on slides. She connects AI, leadership, and human dynamics psychology to show why teams resist, why conflict escalates, why trust breaks, and how leaders bring people back into clarity.
+                    </p>
+                    <div class="p-6 bg-obsidian/50 gold-border italic font-serif text-bone/80 mb-10 leading-relaxed">
+                        “She does not just give insight. She shifts the energy in the room. People leave calmer, clearer, and more honest about what is really driving outcomes.”
+                    </div>
+                    <a href="https://cal.com/eva-karnaukh/intro" target="_blank" rel="noopener noreferrer" class="inline-block bg-bone text-obsidian px-12 py-5 font-bold uppercase tracking-widest text-[11px] hover:bg-champagne transition-all" aria-label="Invite Eva Karnaukh to speak at your event">
+                        Invite Eva to Speak
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Narrative Section -->
+    <section id="about" class="py-24 bg-obsidian">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <div class="signature-accent mb-4">A message to you</div>
+                <h2 class="text-3xl md:text-5xl font-serif italic mb-10 text-glow-gold">AI will not replace leadership. <br>But it will reveal it.</h2>
+            </div>
+            <div class="space-y-8 text-lg md:text-xl leading-relaxed font-light text-muted fade-in">
+                <p>AI does not create chaos. It reveals it. If your culture is unclear, AI will move faster in the wrong direction. If your communication is fragile, AI will amplify the cracks.</p>
+                <div class="p-8 bg-charcoal gold-border my-12 relative">
+                    <p class="text-bone font-serif text-2xl italic leading-relaxed">“Growth changes when you understand how humans decide under uncertainty, and why we repeat patterns we swear we are done with.”</p>
+                </div>
+                <div class="text-lg text-muted leading-relaxed font-light mb-12">
+                    <p class="mb-6">Most of our “problems” are not problems. They are patterns. How we handle pressure. Who we trust. How we react when we feel misunderstood. How we chase certainty, and call it strategy.</p>
+                    <p class="font-medium text-bone">When you learn to see these patterns, you stop repeating them. <span class="block mt-4 italic text-champagne">Most of life is pattern, not personality. Once you see the pattern, you can change it.</span></p>
+                </div>
+                <div class="flex items-center space-x-4 mt-12">
+                    <div class="w-12 h-0.5 bg-champagne"></div>
+                    <p class="text-bone font-hand text-xl">Eva Karnaukh</p>
+                </div>
+            </div>
+
+            <!-- ADVISORY CONSULTATION -->
+            <div class="mt-20 fade-in text-center border-t border-white/10 pt-16">
+                <h3 class="text-2xl md:text-3xl font-serif mb-6 italic">Want to see the pattern you are stuck in?</h3>
+                <p class="text-muted mb-10 max-w-lg mx-auto leading-relaxed">
+                    Sometimes you do not need more discipline. You need more truth. Let us look at what is driving your decisions, your leadership, or your relationships right now.
+                </p>
+                <a href="https://cal.com/evakarnaukh/30min" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-4 bg-champagne text-obsidian px-12 py-5 font-bold uppercase tracking-widest text-[11px] hover:bg-white transition-all" aria-label="Start a private conversation with Eva Karnaukh">
+                    <span>Start a Private Conversation</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACCELERATOR -->
+    <section id="accelerator" class="py-24 bg-charcoal border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-24 items-center">
+                <div class="fade-in">
+                    <span class="text-champagne font-bold tracking-[0.3em] uppercase text-[10px] mb-4 block">Small group experience</span>
+                    <h2 class="text-4xl md:text-5xl font-serif mb-8 leading-tight">7-Day Executive AI and Humans Mastery Accelerator</h2>
+                    <p class="text-muted text-lg mb-8 leading-relaxed font-light">
+                        Master the strategy of AI and the psychology of people. This masterclass shapes a new type of leader—one who anchors teams in clarity across work and life.
+                    </p>
+                    
+                    <ul class="space-y-4 mb-10 text-sm text-bone/80">
+                        <li class="flex items-start space-x-3">
+                            <span class="text-champagne mt-1">&rarr;</span>
+                            <span><strong>Beyond the Tech:</strong> Gain high-level AI mastery without the jargon.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-champagne mt-1">&rarr;</span>
+                            <span><strong>Decode Human Signals:</strong> See the invisible patterns AI can’t detect.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-champagne mt-1">&rarr;</span>
+                            <span><strong>Lead Change:</strong> Navigate the profound impact of transformation with authority.</span>
+                        </li>
+                    </ul>
+
+                    <div class="flex flex-col sm:flex-row items-center gap-6">
+                        <a href="https://maven.com/eva-karnaukh/7-day-ai-confidence-accelerator-think-like-a-chief-ai-officer" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-champagne text-obsidian px-12 py-5 font-bold uppercase tracking-widest text-[11px] hover:bg-bone transition-all shadow-xl text-center" aria-label="Join the 7-Day Executive AI and Humans Mastery Accelerator">
+                            Join the Waitlist
+                        </a>
+                        <p class="text-[10px] uppercase tracking-widest text-muted italic">Next dates announced soon.</p>
+                    </div>
+                </div>
+                <div class="relative hidden lg:block fade-in">
+                    <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=1000" class="rounded-2xl shadow-2xl gold-border opacity-70" alt="Leadership Mastery" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIGITAL STORE -->
+    <section id="playbook" class="py-24 bg-obsidian">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-xs uppercase tracking-[0.4em] text-champagne mb-4">Tools that make patterns visible</h2>
+            <h3 class="text-4xl font-serif mb-16 italic">Equip Your Growth</h3>
+            <div class="grid md:grid-cols-3 gap-8 text-left">
+                <!-- KIT -->
+                <div id="kit" class="p-10 bg-bone text-obsidian flex flex-col justify-between shadow-2xl transition-transform hover:scale-[1.02]">
+                    <div>
+                        <span class="text-[8px] font-bold uppercase tracking-[0.3em] bg-gold_dark text-white px-2 py-1 mb-6 inline-block">Best Entry</span>
+                        <h4 class="text-2xl font-serif mb-4">Pattern-Recognition Kit</h4>
+                        <p class="opacity-70 text-sm mb-8 font-light leading-relaxed">Spot the hidden dynamics driving friction, burnout, and misalignment, in 15 minutes.</p>
+                        <div class="text-3xl font-serif mb-8">$27</div>
+                    </div>
+                    <a href="https://buy.stripe.com/4gM4gA3Ct33NbN24vU9fW02" target="_blank" rel="noopener noreferrer" class="w-full py-4 bg-obsidian text-bone text-center text-[10px] font-bold uppercase tracking-widest hover:bg-gold_dark transition-all" aria-label="Purchase Pattern-Recognition Kit for $27">Get Instant Access</a>
+                </div>
+                <!-- PLAYBOOK -->
+                <div class="p-10 bg-charcoal border border-white/5 flex flex-col justify-between group">
+                    <div>
+                        <h4 class="text-2xl font-serif mb-4 group-hover:text-champagne transition-colors">AI Conversation Playbook</h4>
+                        <p class="text-muted text-sm mb-8 font-light leading-relaxed">Say the right thing when people feel uncertain. Scripts that build trust and keep conversations human.</p>
+                        <div class="text-3xl font-serif mb-8">$197</div>
+                    </div>
+                    <a href="https://buy.stripe.com/7sY5kE2ypgUD4kAaUi9fW04" target="_blank" rel="noopener noreferrer" class="w-full py-4 bg-white/5 border border-white/10 text-center text-[10px] font-bold uppercase tracking-widest hover:bg-champagne hover:text-obsidian transition-all" aria-label="Purchase AI Conversation Playbook for $197">Download Now</a>
+                </div>
+                <!-- WORKSHOP -->
+                <div class="p-10 bg-charcoal border border-white/5 flex flex-col justify-between group">
+                    <div>
+                        <h4 class="text-2xl font-serif mb-4 group-hover:text-champagne transition-colors">Private Workshop</h4>
+                        <p class="text-muted text-sm mb-8 font-light leading-relaxed">A deep reset for people who are high-achieving on the outside but feel stuck inside.</p>
+                        <div class="text-3xl font-serif mb-8">$497</div>
+                    </div>
+                    <a href="https://buy.stripe.com/00wbJ20qh0VF5oE6E29fW05" target="_blank" rel="noopener noreferrer" class="w-full py-4 bg-white/5 border border-white/10 text-center text-[10px] font-bold uppercase tracking-widest hover:bg-champagne hover:text-obsidian transition-all" aria-label="Purchase Private Workshop for $497">Save My Seat</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PODCAST -->
+    <section id="podcast" class="py-24 bg-obsidian border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <div class="signature-accent mb-4">EVKA's Talk @ 5 o'clock</div>
+                <h2 class="text-3xl md:text-5xl font-serif mb-6 italic text-glow-gold">Listen, Watch, and Subscribe</h2>
+                <p class="text-muted text-lg max-w-2xl mx-auto leading-relaxed font-light">
+                    Join Eva Karnaukh every weekday at 5 PM for conversations shaping the future of leadership and technology.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-6 max-w-6xl mx-auto fade-in">
+                <!-- Spotify -->
+                <a href="https://open.spotify.com/show/39v6dCYIZjLjjJORdRzaCh?utm_source=voice2me.beehiiv.com&utm_medium=referral&utm_campaign=everyone-thinks-i-hired-an-assistant" target="_blank" rel="noopener noreferrer" class="group bg-bone rounded-xl p-5 flex flex-col items-center justify-center hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" aria-label="Listen to EVKA's Talk @ 5 o'clock on Spotify">
+                    <div class="w-12 h-12 bg-[#1DB954] rounded-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform shadow-sm">
+                        <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.42 1.56-.299.421-1.02.599-1.559.3z"/>
+                        </svg>
+                    </div>
+                    <p class="text-[8px] text-obsidian/70 uppercase tracking-widest mb-1 font-medium">Listen On</p>
+                    <p class="text-obsidian font-bold text-xs">Spotify</p>
+                </a>
+
+                <!-- Apple Podcasts -->
+                <a href="https://podcasts.apple.com/us/podcast/evkas-talk-5-oclock/id1771548720" target="_blank" rel="noopener noreferrer" class="group bg-bone rounded-xl p-5 flex flex-col items-center justify-center hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" aria-label="Listen to EVKA's Talk @ 5 o'clock on Apple Podcasts">
+                    <div class="w-12 h-12 bg-[#9933CC] rounded-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform shadow-sm">
+                        <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M17.05 3.56L16.2 4.4c-.15.15-.15.39 0 .54l1.8 1.8c.15.15.39.15.54 0l.85-.85c.15-.15.15-.39 0-.54l-1.8-1.8c-.15-.15-.39-.15-.54 0zm-9.1 0L6.25 4.4c-.15.15-.15.39 0 .54l1.8 1.8c.15.15.39.15.54 0l.85-.85c.15-.15.15-.39 0-.54l-1.8-1.8c-.15-.15-.39-.15-.54 0zm9.1 13.1l-.85.85c-.15.15-.39.15-.54 0l-1.8-1.8c-.15-.15-.15-.39 0-.54l.85-.85c.15-.15.39-.15.54 0l1.8 1.8c.15.15.15.39 0 .54zm-9.1 0l-.85.85c-.15.15-.39.15-.54 0l-1.8-1.8c-.15-.15-.15-.39 0-.54l.85-.85c.15-.15.39-.15.54 0l1.8 1.8c.15.15.15.39 0 .54zM12 5.5c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5 6.5-2.91 6.5-6.5-2.91-6.5-6.5-6.5zm0 11c-2.48 0-4.5-2.02-4.5-4.5S9.52 7.5 12 7.5s4.5 2.02 4.5 4.5-2.02 4.5-4.5 4.5z"/>
+                        </svg>
+                    </div>
+                    <p class="text-[8px] text-obsidian/70 uppercase tracking-widest mb-1 font-medium">Listen On</p>
+                    <p class="text-obsidian font-bold text-xs">Apple Podcasts</p>
+                </a>
+
+                <!-- YouTube -->
+                <a href="https://www.youtube.com/@evakarnaukh" target="_blank" rel="noopener noreferrer" class="group bg-bone rounded-xl p-5 flex flex-col items-center justify-center hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" aria-label="Watch and listen to EVKA's Talk @ 5 o'clock on YouTube">
+                    <div class="w-12 h-12 bg-[#FF0000] rounded-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform shadow-sm">
+                        <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </div>
+                    <p class="text-[8px] text-obsidian/70 uppercase tracking-widest mb-1 font-medium">Watch & Listen</p>
+                    <p class="text-obsidian font-bold text-xs">YouTube</p>
+                </a>
+
+                <!-- Audible -->
+                <a href="https://www.audible.com/?ref=Adbl_ip_rdr_from_IT&ipRedirectFrom=IT&ipRedirectOriginalURL=podcast%2FEVKAs-Talk-5-oclock%2FB0FG3FF5WW" target="_blank" rel="noopener noreferrer" class="group bg-bone rounded-xl p-5 flex flex-col items-center justify-center hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" aria-label="Listen to EVKA's Talk @ 5 o'clock on Audible">
+                    <div class="w-12 h-12 bg-[#FF6600] rounded-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform shadow-sm">
+                        <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                        </svg>
+                    </div>
+                    <p class="text-[8px] text-obsidian/70 uppercase tracking-widest mb-1 font-medium">Listen On</p>
+                    <p class="text-obsidian font-bold text-xs">Audible</p>
+                </a>
+
+                <!-- Amazon Music -->
+                <a href="https://music.amazon.com/es-co/podcasts/7b6c1f47-d297-4893-b66f-51235697ab5d/evka's-talk-a-5-o'clock" target="_blank" rel="noopener noreferrer" class="group bg-bone rounded-xl p-5 flex flex-col items-center justify-center hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" aria-label="Listen to EVKA's Talk @ 5 o'clock on Amazon Music">
+                    <div class="w-12 h-12 bg-[#146EB4] rounded-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform shadow-sm">
+                        <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" opacity="0.3"/>
+                        </svg>
+                    </div>
+                    <p class="text-[8px] text-obsidian/70 uppercase tracking-widest mb-1 font-medium">Listen On</p>
+                    <p class="text-obsidian font-bold text-xs">Amazon</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOK PRE-ORDER -->
+    <section id="book" class="py-24 bg-charcoal border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="fade-in flex justify-center lg:justify-end">
+                    <div class="relative group">
+                        <!-- Golden glow effect -->
+                        <div class="absolute -inset-6 bg-champagne/30 rounded-2xl blur-3xl opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                        <!-- Book cover design -->
+                        <div class="relative z-10 bg-obsidian rounded-xl p-10 md:p-12 max-w-sm md:max-w-md w-full shadow-2xl border border-white/10 group-hover:scale-[1.02] transition-transform duration-500" style="box-shadow: 0 25px 80px -20px rgba(212, 175, 55, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1);">
+                            <div class="text-[9px] uppercase tracking-[0.3em] font-bold text-muted mb-8 text-center">AUTHOR EVA KARNAUKH</div>
+                            <h2 class="text-4xl md:text-5xl font-serif mb-6 leading-tight text-center">
+                                The Invisible <span class="text-champagne">Pattern</span>
+                            </h2>
+                            <p class="text-lg md:text-xl font-sans uppercase tracking-[0.2em] text-muted mb-8 text-center">YOU CAN'T ESCAPE</p>
+                            <div class="w-2/3 h-px bg-champagne mx-auto mb-8"></div>
+                            <p class="text-[10px] uppercase tracking-[0.4em] font-bold text-muted text-center">COMING SOON</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fade-in">
+                    <div class="signature-accent mb-4">Coming Soon</div>
+                    <h2 class="text-4xl md:text-5xl font-serif mb-6 leading-tight italic text-glow-gold">Pre-order the Book</h2>
+                    <p class="text-muted text-lg mb-8 leading-relaxed font-light">
+                        Discover the patterns that shape leadership, decisions, and relationships. A deep dive into human dynamics and AI innovation from Eva Karnaukh.
+                    </p>
+                    <p class="text-muted text-base mb-10 leading-relaxed font-light">
+                        Be among the first to receive this transformative work that bridges the gap between artificial intelligence and authentic human connection.
+                    </p>
+                    <button type="button" class="bg-champagne text-obsidian px-12 py-5 font-bold uppercase tracking-widest text-[11px] hover:bg-bone transition-all shadow-xl" aria-label="Pre-order the book">
+                        Pre-order Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BEEHIIV SUBSCRIPTION -->
+    <section class="py-16 bg-charcoal relative overflow-hidden">
+        <!-- Background glow effects -->
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-champagne/10 rounded-full blur-3xl opacity-30 animate-pulse"></div>
+        <div class="absolute bottom-0 right-1/4 w-80 h-80 bg-champagne/5 rounded-full blur-3xl opacity-40"></div>
+        
+        <div class="max-w-4xl mx-auto px-6 relative z-10">
+            <div class="airy-section glass-airy flex flex-col md:flex-row items-center justify-between gap-8 p-12 rounded-2xl shadow-2xl">
+                <div class="text-left relative z-10">
+                    <h3 class="text-2xl font-serif italic mb-2 text-bone">The Human Edge</h3>
+                    <p class="text-[10px] text-muted uppercase tracking-[0.2em] leading-relaxed mb-1">Join leaders who are learning how to lead differently in the AI era.</p>
+                    <p class="text-[9px] text-muted/50 uppercase tracking-[0.1em]">No spam. Just signal.</p>
+                </div>
+                <form action="https://www.beehiiv.com/new-subscription" method="post" target="_blank" class="flex w-full md:w-auto relative z-10" aria-label="Subscribe to The Human Edge newsletter">
+                    <input type="hidden" name="pub_id" value="YOUR_BEEHIIV_PUB_ID">
+                    <input type="email" name="email" placeholder="Email Address" required aria-label="Email address for newsletter subscription" class="bg-charcoal/80 backdrop-blur-sm border border-white/20 px-6 py-4 text-xs w-full md:w-64 outline-none focus:border-champagne focus:bg-charcoal/90 focus:shadow-lg focus:shadow-champagne/20 transition-all placeholder:text-muted/60">
+                    <button type="submit" class="bg-champagne text-obsidian px-8 py-4 font-bold uppercase text-[10px] tracking-widest hover:bg-white hover:shadow-lg hover:shadow-champagne/30 transition-all relative overflow-hidden group" aria-label="Subscribe to newsletter">
+                        <span class="relative z-10">Join free</span>
+                        <span class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-24 bg-obsidian border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="text-xl font-serif font-bold tracking-widest uppercase mb-6 text-glow-gold">Eva Karnaukh</div>
+                    <p class="text-muted text-sm font-light leading-relaxed mb-8 max-w-sm">
+                        Eva Karnaukh is an entrepreneur, keynote speaker, and author exploring the intersection of AI innovation and human dynamics.
+                    </p>
+                    <div class="flex space-x-6 text-muted uppercase text-[10px] font-bold tracking-widest">
+                        <a href="https://www.linkedin.com/in/evakarnaukh/" target="_blank" rel="noopener noreferrer" class="hover:text-champagne transition-colors" aria-label="Follow Eva Karnaukh on LinkedIn">LinkedIn</a>
+                        <a href="https://x.com/evakarnaukh" target="_blank" rel="noopener noreferrer" class="hover:text-champagne transition-colors" aria-label="Follow Eva Karnaukh on X (Twitter)">X</a>
+                        <a href="https://www.instagram.com/eva_karnaukh/" target="_blank" rel="noopener noreferrer" class="hover:text-champagne transition-colors" aria-label="Follow Eva Karnaukh on Instagram">Instagram</a>
+                        <a href="https://apek.ai" target="_blank" rel="noopener noreferrer" class="hover:text-champagne transition-colors" aria-label="Visit APEK.ai website">APEK.ai</a>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="text-[10px] uppercase tracking-widest font-bold mb-6 text-bone">Programs</h5>
+                    <ul class="space-y-4 text-[10px] text-muted uppercase tracking-widest font-medium">
+                        <li><a href="#accelerator">7-Day Cohort</a></li>
+                        <li><a href="#playbook">Digital Store</a></li>
+                        <li><a href="https://cal.com/eva-karnaukh/intro" target="_blank" rel="noopener noreferrer" aria-label="Schedule a consultation with Eva Karnaukh">Schedule Consult</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-[10px] uppercase tracking-widest font-bold mb-6 text-bone">Inquiries</h5>
+                    <ul class="space-y-4 text-[10px] text-muted uppercase tracking-widest font-medium">
+                        <li><a href="#speaking">Keynotes</a></li>
+                        <li><a href="#podcast">Guest Spots</a></li>
+                        <li><a href="#" class="hover:text-champagne">Press Kit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center pt-12 border-t border-white/5 text-[8px] uppercase tracking-[0.3em] text-muted/50">
+                <p>&copy; 2026 Eva Karnaukh. CEO at APEK.ai. Building human-first AI experiences.</p>
+                <div class="flex space-x-8 mt-4 md:mt-0">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </main>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (menuToggle && mobileMenu) {
+            menuToggle.onclick = () => {
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
+            };
+        }
+        
+        // Intersection Observer for fade-in animations
+        if ('IntersectionObserver' in window) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) entry.target.classList.add('visible');
+                });
+            }, { threshold: 0.1 });
+            document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+        } else {
+            // Fallback for browsers without IntersectionObserver
+            document.querySelectorAll('.fade-in').forEach(el => el.classList.add('visible'));
+        }
+    </script>
+</body>
+</html>
